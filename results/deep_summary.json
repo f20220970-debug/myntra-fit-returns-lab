@@ -1,0 +1,52 @@
+{
+ "prior_alpha_beta": [
+  2.41,
+  2.8
+ ],
+ "prior_mean_small": 0.463,
+ "chosen_rule_products": 62,
+ "chosen_rule_agreement_pct_95ci": [
+  77.4,
+  87.1,
+  95.2
+ ],
+ "baseline_pct_95ci": [
+  50.0,
+  61.3,
+  72.6
+ ],
+ "gain_pp_95ci": [
+  11.3,
+  25.8,
+  40.3
+ ],
+ "tfidf_unhappy_auc": 0.94,
+ "rules_only_unhappy_auc": 0.692,
+ "top_unhappy_terms_not_in_rules": [
+  "huge",
+  "swimming",
+  "fabric",
+  "looked like",
+  "way",
+  "material",
+  "strange",
+  "idea",
+  "going",
+  "want love",
+  "awful",
+  "looked",
+  "looks like",
+  "barely",
+  "model",
+  "completely",
+  "just ok",
+  "expected",
+  "unless",
+  "concept",
+  "terrible",
+  "mark",
+  "sadly",
+  "sent",
+  "lay"
+ ]
+}

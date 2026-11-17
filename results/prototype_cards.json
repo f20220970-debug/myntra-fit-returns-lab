@@ -1,0 +1,77 @@
+[
+ {
+  "id": 1095,
+  "cls": "Dresses",
+  "rating": 4.0,
+  "reviews": 323,
+  "head": "Runs small",
+  "advice": "Most shoppers who mentioned fit suggest ordering one size up.",
+  "pct": 76,
+  "n": 101,
+  "quotes": [
+   "i'm a 36c and the extra small is just a bit tight in the bust, otherwise i like the fit everywhere else.",
+   "i will probably return, try the size up, but was disappointed compared to how excited i was for it."
+  ],
+  "badge": "runs small"
+ },
+ {
+  "id": 1059,
+  "cls": "Pants",
+  "rating": 4.3,
+  "reviews": 287,
+  "head": "Runs small",
+  "advice": "Most shoppers who mentioned fit suggest ordering one size up.",
+  "pct": 72,
+  "n": 67,
+  "quotes": [
+   "for starters, these pants run small, so i ordered a size up but still in petite, because i adored the red ones i got this past summer.",
+   "they fit fine in the waist and bum but they are tight around my calves."
+  ],
+  "badge": "runs small"
+ },
+ {
+  "id": 862,
+  "cls": "Knits",
+  "rating": 4.2,
+  "reviews": 778,
+  "head": "Runs large",
+  "advice": "Most shoppers who mentioned fit suggest ordering one size down.",
+  "pct": 68,
+  "n": 159,
+  "quotes": [
+   "it runs big but falls in such a way that it doesn't make the wearer look big; it falls elegantly and in a flattering way.",
+   "it runs large- i'm usually a medium and needed a small."
+  ],
+  "badge": "runs large"
+ },
+ {
+  "id": 936,
+  "cls": "Sweaters",
+  "rating": 4.3,
+  "reviews": 348,
+  "head": "Runs large",
+  "advice": "Most shoppers who mentioned fit suggest ordering one size down.",
+  "pct": 69,
+  "n": 70,
+  "quotes": [
+   "I ordered the sweater in a medium but it was too large - so reordered it in the small and it fits perfectly.",
+   "i am 5'2\" and the coat was too big."
+  ],
+  "badge": "runs large"
+ },
+ {
+  "id": 1078,
+  "cls": "Dresses",
+  "rating": 4.2,
+  "reviews": 987,
+  "head": "True to size",
+  "advice": "Fit comments are split, so stick to your usual size.",
+  "pct": 53,
+  "n": 242,
+  "quotes": [
+   "Based on some reviews i decided to get the regular xs, even tho i am an xs petite (5'2, 107 lb, 32c) i found the fit to be flattering -- fitted enough but not\u2026",
+   "the top was fine but it became a bit tent-like in the waist."
+  ],
+  "badge": "true to size / mixed"
+ }
+]

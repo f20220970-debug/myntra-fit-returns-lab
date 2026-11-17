@@ -1,0 +1,10 @@
+rule,products_badged,coverage_pct,agreement_pct
+"Bayesian, P >= 0.8",78,57.4,87.2
+"Bayesian, P >= 0.85",68,50.0,88.2
+"Bayesian, P >= 0.9",57,41.9,89.5
+"Bayesian, P >= 0.95",44,32.4,90.9
+"Bayesian, P >= 0.975",34,25.0,91.2
+"Bayesian, P >= 0.99",25,18.4,92.0
+"fixed: >= 3 reviews, 60% agree",86,63.2,83.7
+"fixed: >= 5 reviews, 65% agree",62,45.6,87.1
+"fixed: >= 8 reviews, 70% agree",33,24.3,90.9

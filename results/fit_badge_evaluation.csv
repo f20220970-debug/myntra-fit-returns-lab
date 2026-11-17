@@ -1,0 +1,4 @@
+min_fit_reviews_to_badge,agreement_needed,products_badged,badge_agrees_with_later_shoppers_pct,baseline_always_say_large_pct,fit_reviews_on_badged_products_pct
+3,0.6,86,83.7,60.5,53.4
+5,0.65,62,87.1,61.3,43.3
+8,0.7,33,90.9,66.7,26.5

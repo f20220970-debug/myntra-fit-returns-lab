@@ -1,0 +1,71 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fit Badge Prototype</title><style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#222;--mut:#6b7280;--pink:#ff3f6c;--small:#2563eb;--large:#d97706;--tts:#15803d}
+body{margin:0;background:var(--bg);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink)}
+header{padding:20px 16px;max-width:980px;margin:auto}h1{font-size:22px;margin:0 0 4px}
+main{max-width:980px;margin:auto;padding:0 16px 40px;display:grid;gap:16px}
+.pdp{background:var(--card);border-radius:12px;display:grid;grid-template-columns:200px 1fr;overflow:hidden;box-shadow:0 1px 3px #0001}
+.img{background:linear-gradient(135deg,#fde2e8,#e0e7ff);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:600;color:#555;min-height:220px}
+.img small{font-weight:400}.info{padding:16px}h3{margin:0}.muted{color:var(--mut);margin:4px 0}
+.sizes b{display:inline-block;border:1px solid #d1d5db;border-radius:20px;padding:4px 12px;margin:8px 6px 8px 0;font-weight:500}
+.badge{border-left:4px solid;border-radius:8px;padding:10px 12px;background:#fafafa}.badge.runs{}
+.badge.small{border-color:var(--small)}.badge.large{border-color:var(--large)}.badge.tts{border-color:var(--tts)}
+.badge p{margin:6px 0}.bh{font-weight:700}.bh span{font-weight:400;color:var(--mut);font-size:13px;margin-left:6px}
+.meter{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--mut);margin-top:6px}
+.bar{flex:1;height:6px;background:linear-gradient(90deg,var(--small),#e5e7eb,var(--large));border-radius:3px;position:relative}
+.bar i{position:absolute;top:-4px;width:14px;height:14px;border-radius:50%;background:#111;transform:translateX(-50%)}
+details{font-size:13px}summary{cursor:pointer;color:var(--pink)}.why{font-size:12px}
+@media(max-width:640px){.pdp{grid-template-columns:1fr}.img{min-height:100px}}
+</style></head><body><header><h1>Fit badge: product page prototype</h1>
+<p class="muted">Built from real customer reviews (public women's fashion e-commerce dataset). The product names and photos are not in the data, so they are replaced by the category and product number. Blue = runs small, amber = runs large, green = true to size.</p></header>
+<main><article class="pdp">
+ <div class="img">Dresses<small>Product #1095</small></div>
+ <div class="info"><h3>Dresses &middot; product 1095</h3>
+  <p class="muted">&#9733; 4.0 &middot; 323 reviews</p>
+  <div class="sizes"><b>XS</b><b>S</b><b>M</b><b>L</b><b>XL</b></div>
+  <div class="badge small">
+   <div class="bh">Runs small <span>76% of 101 shoppers who mentioned fit</span></div>
+   <div class="meter"><span>Small</span><div class="bar"><i style="left:24%"></i></div><span>Large</span></div><p>Most shoppers who mentioned fit suggest ordering one size up.</p>
+   <details><summary>What shoppers said</summary><ul><li>&ldquo;i&#x27;m a 36c and the extra small is just a bit tight in the bust, otherwise i like the fit everywhere else.&rdquo;</li><li>&ldquo;i will probably return, try the size up, but was disappointed compared to how excited i was for it.&rdquo;</li></ul></details></div>
+  <p class="why muted">Shown only when &ge;5 shoppers mentioned fit and &ge;65% agree. In a held-out test this rule agreed with later shoppers 87% of the time.</p>
+ </div></article><article class="pdp">
+ <div class="img">Pants<small>Product #1059</small></div>
+ <div class="info"><h3>Pants &middot; product 1059</h3>
+  <p class="muted">&#9733; 4.3 &middot; 287 reviews</p>
+  <div class="sizes"><b>XS</b><b>S</b><b>M</b><b>L</b><b>XL</b></div>
+  <div class="badge small">
+   <div class="bh">Runs small <span>72% of 67 shoppers who mentioned fit</span></div>
+   <div class="meter"><span>Small</span><div class="bar"><i style="left:28%"></i></div><span>Large</span></div><p>Most shoppers who mentioned fit suggest ordering one size up.</p>
+   <details><summary>What shoppers said</summary><ul><li>&ldquo;for starters, these pants run small, so i ordered a size up but still in petite, because i adored the red ones i got this past summer.&rdquo;</li><li>&ldquo;they fit fine in the waist and bum but they are tight around my calves.&rdquo;</li></ul></details></div>
+  <p class="why muted">Shown only when &ge;5 shoppers mentioned fit and &ge;65% agree. In a held-out test this rule agreed with later shoppers 87% of the time.</p>
+ </div></article><article class="pdp">
+ <div class="img">Knits<small>Product #862</small></div>
+ <div class="info"><h3>Knits &middot; product 862</h3>
+  <p class="muted">&#9733; 4.2 &middot; 778 reviews</p>
+  <div class="sizes"><b>XS</b><b>S</b><b>M</b><b>L</b><b>XL</b></div>
+  <div class="badge large">
+   <div class="bh">Runs large <span>68% of 159 shoppers who mentioned fit</span></div>
+   <div class="meter"><span>Small</span><div class="bar"><i style="left:68%"></i></div><span>Large</span></div><p>Most shoppers who mentioned fit suggest ordering one size down.</p>
+   <details><summary>What shoppers said</summary><ul><li>&ldquo;it runs big but falls in such a way that it doesn&#x27;t make the wearer look big; it falls elegantly and in a flattering way.&rdquo;</li><li>&ldquo;it runs large- i&#x27;m usually a medium and needed a small.&rdquo;</li></ul></details></div>
+  <p class="why muted">Shown only when &ge;5 shoppers mentioned fit and &ge;65% agree. In a held-out test this rule agreed with later shoppers 87% of the time.</p>
+ </div></article><article class="pdp">
+ <div class="img">Sweaters<small>Product #936</small></div>
+ <div class="info"><h3>Sweaters &middot; product 936</h3>
+  <p class="muted">&#9733; 4.3 &middot; 348 reviews</p>
+  <div class="sizes"><b>XS</b><b>S</b><b>M</b><b>L</b><b>XL</b></div>
+  <div class="badge large">
+   <div class="bh">Runs large <span>69% of 70 shoppers who mentioned fit</span></div>
+   <div class="meter"><span>Small</span><div class="bar"><i style="left:69%"></i></div><span>Large</span></div><p>Most shoppers who mentioned fit suggest ordering one size down.</p>
+   <details><summary>What shoppers said</summary><ul><li>&ldquo;I ordered the sweater in a medium but it was too large - so reordered it in the small and it fits perfectly.&rdquo;</li><li>&ldquo;i am 5&#x27;2&quot; and the coat was too big.&rdquo;</li></ul></details></div>
+  <p class="why muted">Shown only when &ge;5 shoppers mentioned fit and &ge;65% agree. In a held-out test this rule agreed with later shoppers 87% of the time.</p>
+ </div></article><article class="pdp">
+ <div class="img">Dresses<small>Product #1078</small></div>
+ <div class="info"><h3>Dresses &middot; product 1078</h3>
+  <p class="muted">&#9733; 4.2 &middot; 987 reviews</p>
+  <div class="sizes"><b>XS</b><b>S</b><b>M</b><b>L</b><b>XL</b></div>
+  <div class="badge tts">
+   <div class="bh">True to size <span>53% of 242 shoppers who mentioned fit</span></div>
+   <p>Fit comments are split, so stick to your usual size.</p>
+   <details><summary>What shoppers said</summary><ul><li>&ldquo;Based on some reviews i decided to get the regular xs, even tho i am an xs petite (5&#x27;2, 107 lb, 32c) i found the fit to be flattering -- fitted enough but not…&rdquo;</li><li>&ldquo;the top was fine but it became a bit tent-like in the waist.&rdquo;</li></ul></details></div>
+  <p class="why muted">Shown only when &ge;5 shoppers mentioned fit and &ge;65% agree. In a held-out test this rule agreed with later shoppers 87% of the time.</p>
+ </div></article></main></body></html>

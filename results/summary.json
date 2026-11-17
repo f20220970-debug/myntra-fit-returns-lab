@@ -1,0 +1,161 @@
+{
+ "reviews_with_text": 22641,
+ "products": 1179,
+ "unhappy_share": 0.238,
+ "return_mention_share": 0.1,
+ "share_of_return_mentions_with_fit_issue": 0.361,
+ "share_of_return_mentions_with_fabric_issue": 0.177,
+ "fit_reviews_clear_direction": 5219,
+ "share_of_fit_reviews_saying_small": 0.456,
+ "ab_test_orders_per_arm": {
+  "base_15pct_detect_0.5pt": 78863,
+  "base_15pct_detect_1.0pt": 19436,
+  "base_25pct_detect_0.5pt": 116809,
+  "base_25pct_detect_1.0pt": 29001
+ },
+ "badge_distribution": {
+  "true to size / mixed": 66,
+  "runs large": 64,
+  "runs small": 34
+ },
+ "return_pct_by_badge": {
+  "runs large": 16.2,
+  "runs small": 14.3,
+  "true to size / mixed": 14.2
+ },
+ "drivers_top": [
+  {
+   "theme": "fit_any",
+   "pct_of_unhappy_reviews": 34.4,
+   "pct_of_happy_reviews": 21.5,
+   "lift_unhappy_vs_happy": 1.6,
+   "pct_mentioning_return_when_theme_present": 14.7
+  },
+  {
+   "theme": "fabric_quality",
+   "pct_of_unhappy_reviews": 22.2,
+   "pct_of_happy_reviews": 8.3,
+   "lift_unhappy_vs_happy": 2.68,
+   "pct_mentioning_return_when_theme_present": 15.3
+  },
+  {
+   "theme": "fit_large",
+   "pct_of_unhappy_reviews": 21.9,
+   "pct_of_happy_reviews": 11.6,
+   "lift_unhappy_vs_happy": 1.88,
+   "pct_mentioning_return_when_theme_present": 15.8
+  },
+  {
+   "theme": "looks_different",
+   "pct_of_unhappy_reviews": 20.2,
+   "pct_of_happy_reviews": 12.3,
+   "lift_unhappy_vs_happy": 1.64,
+   "pct_mentioning_return_when_theme_present": 13.9
+  },
+  {
+   "theme": "length",
+   "pct_of_unhappy_reviews": 17.9,
+   "pct_of_happy_reviews": 20.6,
+   "lift_unhappy_vs_happy": 0.87,
+   "pct_mentioning_return_when_theme_present": 10.0
+  }
+ ],
+ "return_odds": {
+  "unflattering_cut": 2.31,
+  "fit_large": 1.75,
+  "fabric_quality": 1.74,
+  "fit_small": 1.43,
+  "looks_different": 1.43,
+  "price": 1.09,
+  "length": 0.96,
+  "colour": 0.96
+ },
+ "category_top": [
+  {
+   "Class Name": "Dresses",
+   "reviews": 6145,
+   "fit_issue_pct": 26.1,
+   "small_pct": 14.4,
+   "large_pct": 13.7,
+   "return_pct": 10.5,
+   "unhappy_pct": 25.7,
+   "fit_issue_reviews": 1602.0
+  },
+  {
+   "Class Name": "Knits",
+   "reviews": 4626,
+   "fit_issue_pct": 23.3,
+   "small_pct": 7.6,
+   "large_pct": 16.9,
+   "return_pct": 9.7,
+   "unhappy_pct": 24.5,
+   "fit_issue_reviews": 1076.0
+  },
+  {
+   "Class Name": "Blouses",
+   "reviews": 2983,
+   "fit_issue_pct": 28.2,
+   "small_pct": 13.5,
+   "large_pct": 16.1,
+   "return_pct": 10.5,
+   "unhappy_pct": 25.1,
+   "fit_issue_reviews": 840.0
+  },
+  {
+   "Class Name": "Jeans",
+   "reviews": 1104,
+   "fit_issue_pct": 27.9,
+   "small_pct": 18.8,
+   "large_pct": 11.1,
+   "return_pct": 8.6,
+   "unhappy_pct": 18.0,
+   "fit_issue_reviews": 308.0
+  },
+  {
+   "Class Name": "Pants",
+   "reviews": 1350,
+   "fit_issue_pct": 22.6,
+   "small_pct": 13.0,
+   "large_pct": 11.4,
+   "return_pct": 8.4,
+   "unhappy_pct": 21.6,
+   "fit_issue_reviews": 305.0
+  },
+  {
+   "Class Name": "Sweaters",
+   "reviews": 1380,
+   "fit_issue_pct": 21.7,
+   "small_pct": 5.6,
+   "large_pct": 17.0,
+   "return_pct": 12.6,
+   "unhappy_pct": 25.5,
+   "fit_issue_reviews": 299.0
+  }
+ ],
+ "badge_eval": [
+  {
+   "min_fit_reviews_to_badge": 3,
+   "agreement_needed": 0.6,
+   "products_badged": 86,
+   "badge_agrees_with_later_shoppers_pct": 83.7,
+   "baseline_always_say_large_pct": 60.5,
+   "fit_reviews_on_badged_products_pct": 53.4
+  },
+  {
+   "min_fit_reviews_to_badge": 5,
+   "agreement_needed": 0.65,
+   "products_badged": 62,
+   "badge_agrees_with_later_shoppers_pct": 87.1,
+   "baseline_always_say_large_pct": 61.3,
+   "fit_reviews_on_badged_products_pct": 43.3
+  },
+  {
+   "min_fit_reviews_to_badge": 8,
+   "agreement_needed": 0.7,
+   "products_badged": 33,
+   "badge_agrees_with_later_shoppers_pct": 90.9,
+   "baseline_always_say_large_pct": 66.7,
+   "fit_reviews_on_badged_products_pct": 26.5
+  }
+ ]
+}
